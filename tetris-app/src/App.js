@@ -1,7 +1,6 @@
 import './App.css';
-import Block from './components/block/Block';
-import './components/graph/Graph'
-import Graph from './components/graph/Graph';
+import Block from './components/Block';
+import Board from './components/Board'
 
 
 function App() {
@@ -9,8 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Graph/> */}
-      <Block/>
+      <Board/>
     </div>
   );
 }
