@@ -1,26 +1,16 @@
 import './App.css';
-import {useState} from 'react';
+import Block from './components/block/Block';
+import './components/graph/Graph'
+import Graph from './components/graph/Graph';
+
 
 function App() {
-  const [board, setBoard] = useState([['','','','','','','',''],
-                                      ['','','','','','','',''],
-                                      ['','','','','','','',''],
-                                      ['','','','','','','',''],
-                                      ['','','','','','','',''],
-                                      ['','','','','','','',''],
-                                      ['','','','','','','',''],
-                                      ['','','','','','','',''],
-                                      ['','','','','','','',''],
-                                      ['','','','','','','','']])
+ 
 
   return (
     <div className="App">
-      {board.map(row => {
-        return (
-          <div className='boardRow'>
-            {row.map(() => {return <div className='boardBlock'></div>})}
-          </div>
-          )})}
+      {/* <Graph/> */}
+      <Block/>
     </div>
   );
 }
