@@ -1,6 +1,8 @@
 import React, { Component, useState } from 'react';
 
 function Block() {
+    
+
     const blocks = [
         {
             shape: [['x','x','x'],
