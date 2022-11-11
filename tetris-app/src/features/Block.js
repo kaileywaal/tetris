@@ -64,7 +64,6 @@ function Block() {
         newBlock.map(row => {row.reverse()})
         
         setBlock(newBlock);
-
     }
 
 
@@ -96,7 +95,7 @@ function Block() {
             {block.map(row => {
             return (
                 <div className='boardRow'>
-                {row.map((value) => {return <div className='boardBlock'>{value}</div>})}
+                    {row.map((value) => {return <div className='boardBlock'>{value}</div>})}
                 </div>
                 )})}
         </div> 

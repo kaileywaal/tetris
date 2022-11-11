@@ -1,6 +1,6 @@
 import './App.css';
-import Block from './components/Block';
-import Board from './components/Board'
+import Block from './features/Block';
+import Board from './features/Board'
 
 
 function App() {
